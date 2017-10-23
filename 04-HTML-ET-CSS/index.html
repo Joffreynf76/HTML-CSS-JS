@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Accueil</title>
+        <link rel="stylesheet" href="CSS/Styles.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="page">
+            <p>Bienvenue sur le site de la NASA !</p>
+            <div class="topheader">
+                Espace Clients : <a href="#" title="connexion">Connexion</a> | <a href="#" title="inscription">Inscription</a>
+
+            </div>
+            <header>
+                <nav>
+                    <a href="#" onmouseover="alert('Bonjour !');"><img src="IMG/nasa.png"></a>
+                    <ul>
+                        <li class="current"><a href="index.html" title="accueil"><i class="fa fa-space-shuttle" aria-hidden="true"></i>Accueil</a></li>
+                        <li><a href="#" title="presentation" target="_blank" ><i class="fa fa-globe" aria-hidden="true"></i>Présentation</a></li>
+                        <li><a href="#" title="contact" target="_blank"><i class="fa fa-moon-o" aria-hidden="true"></i>Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+            <div id="PROJECTEUR">
+                <img src="IMG/terre3.jpg">
+            </div>
+        <div class="page">
+            <section>
+                <aside><img src="IMG/astronaute.jpg"></aside>
+                <article><p>La National Aeronautics and Space Administration, en français l'Administration nationale de l'aéronautique et de l'espace, plus connue sous son acronyme NASA, est l'agence gouvernementale qui est responsable de la majeure partie du programme spatial civil des États-Unis. La recherche aéronautique relève également du domaine de la NASA. Depuis sa création à la fin des années 1950, la NASA joue mondialement un rôle dominant dans le domaine du vol spatial habité, de l'exploration du Système solaire et de la recherche spatiale. Parmi les réalisations les plus marquantes de l'agence figurent les programmes spatiaux habités Apollo, la navette spatiale américaine, la station spatiale internationale (en coopération avec plusieurs pays), les télescopes spatiaux comme Hubble, l'exploration de Mars par les sondes spatiales Viking et MER, ainsi que celle de Jupiter et Saturne par les sondes Pioneer, Voyager, Galileo et Cassini-Huygens.</p></article>
+                <div class="partenaires">
+                    <img src="IMG/esa.png">
+                    <img src="IMG/cnes.png">
+                    <img src="IMG/roscosmos.jpg">
+                    <img src="IMG/spacex2.jpg">
+                </div>
+            </section>
+        </div>
+        
+            <footer>
+                    <div class="googlemap"><iframe src="https://www.google.com/maps/d/embed?mid=1PbSUPqC4R8jXreQ9BReSEacBErM" width="100%" height="200"></iframe></div>
+                    <div class="newsletter">
+                    
+                        <form name="newsletter" action="newsletter.php" method="POST">
+                            <fieldset>
+                            <legend>Newsletter</legend>
+                            <input type="text" name="nom" placeholder="nom">
+                            
+                            <input type="text" name="prenom" placeholder="prénom">
+                            
+                            <input type="email" name="email" placeholder="email" required>
+                            <input type="submit" value="Valider">
+                            </fieldset>
+                        </form>
+                   </div>
+                   <div class="contact">
+                      <h2>Contact</h2>
+                       <address>
+                           <strong>NASA Headquarters</strong><br>
+                           <a href="tel:(202) 358-0001"><i class="fa fa-phone" aria-hidden="true"></i> (202) 358-0001</a><br>
+                           <a href="mailto:request@newsletters.nasa.gov."><i class="fa fa-envelope" aria-hidden="true"></i> request@newsletters.nasa.gov.</a><br>
+                           <i class="fa fa-map-marker" aria-hidden="true"></i> 300 E. Street SW, Suite 5R30<br>
+                           Washington, DC 20546
+        
+                       </address>
+                    </div>
+            </footer>
+        </div>
+    </body>
+</html>

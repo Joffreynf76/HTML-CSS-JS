@@ -1,0 +1,17 @@
+.grande {
+    float:left;
+    background-color:black;
+    width:500px;
+    height:960px;
+}
+
+.p {
+    float:left;
+    background-color:red;
+    width:250px;
+    height:320px;
+}
+
+body {
+    max-width: 1000px;
+}
