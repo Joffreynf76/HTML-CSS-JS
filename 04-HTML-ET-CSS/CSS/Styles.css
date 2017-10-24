@@ -58,8 +58,11 @@ header a,li {
     
 }
 
+
 header img {
     width: 40%;
+    /* avec une image je précise soit la largeur soit la hauteur pour garder les proportions. 
+    Si pas le choix je peux utiliser object feet */
 }
 
 header a:hover {
@@ -71,16 +74,18 @@ p {
      font-family:'Saira', sans-serif; 
  }
 
+#PROJECTEUR {
+     width:100%;
+ }
 #PROJECTEUR img {
    
-    width:2000px;
-    
-
-    
-
+    width:100%;
 }
 
 section {
+    width: 100%;
+    height: auto;
+    float: left;
     
 }
 
@@ -104,17 +109,20 @@ article {
 
 .partenaires img {
     float:left;
-    width:20%;
+    height:150px;
     margin-left:30px;
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%); /* Firefox */
+    
 
 }
 
 .partenaires img:hover  {
     
     -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-    filter: grayscale(0%); /* Firefox */ 
+    filter: grayscale(0%); /* Firefox */
+    transform: rotate(3deg);
+     
 
 }
 
@@ -122,16 +130,20 @@ footer {
     width: 100%;
     height: auto;
     float: left;
-    background-color:black(94, 92, 92);
+    background-color: black(94, 92, 92);
     padding: 50px;
-    margin-left:25%;
+    
+}
+
+.page footer {
+    background-color: black;
 }
 
 .googlemap {
     width: 310px;
     height: auto;
     float: left;
-    margin-left: 10px;
+    
 }
 
 .newsletter {
