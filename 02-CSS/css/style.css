@@ -114,6 +114,14 @@ body {
 
 .illustration img {
     max-width:100%;
+    position: relative;
+}
+
+.loupe {
+    width: 15%;
+    position: absolute;
+    right:80px;
+    bottom: 10px;
 }
 
 .article  {
