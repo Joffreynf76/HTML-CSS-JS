@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(255,255,255);
+    overflow-x: hidden;
+}
+
+.container-full {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.projecteur {
+    
+    z-index: 1;
+}
+
+.projecteur img:first-child {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    position: relative;
+}
+
+.col-lg-4 {
+    text-align: center;
+}
+
+.projecteur nav {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    bottom:900px;
+    left: 100px;
+    margin-left:-85px;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 50px;
+}
+
+.projecteur nav ul {
+    margin:0;
+    padding: 0;
+    
+    
+}
+.projecteur nav ul li {
+    display: inline-block;
+    
+}
+
+.projecteur nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.projecteur nav ul li a:hover {
+    color: gray;
+}
+
+#nos-videos {
+    background: url(../img/fond-videos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 20px;
+}
+
+#nos-photos {
+    
+   
+    
+
+}
+
+#videos-suites {
+    background: url(../img/fond-videos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.col-lg-3 {
+    width: auto;
+    height: 200px;
+    margin:0;
+    padding:0;
+}
