@@ -19,71 +19,133 @@
    
 </head>
 <body>
-    <div class="container-full">
-            <div class="projecteur">
-                    
-                <div class="row">
-                        <img src="./assets/img/projecteur.png">
-                   <div class="col-lg-12">
-                        <nav>
-                             <ul>
-                                <li class="col-lg-4"><a href="index.html">Accueil</a></li>
-                                <li class="col-lg-4"><a href="#nos-videos">Nos videos</a></li>
-                                <li class="col-lg-4"><a href="#nos-photos">Nos photos</a></li>
+    <main class="container-full">
+        <div class="row">
+            <div class="projecteur col-xs-12 rp">
+               <!-- <img src="./assets/img/projecteur.png" alt="Apple"> -->
+               <div id="my_carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Bulles -->
+                    <ol class="carousel-indicators">
+                    <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#my_carousel" data-slide-to="1"></li>
+                    <li data-target="#my_carousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                    <!-- Page 1 -->
+                    <div class="item active">  
+                    <div class="carousel-page">
+                    <img src="./assets/img/projecteur.png" class="img-responsive" style="margin:0px auto;"/>
+                    </div> 
+                    <div class="carousel-caption"></div>
+                    </div>   
+                    <!-- Page 2 -->
+                    <div class="item"> 
+                    <div class="carousel-page"><img src="./assets/img/slide2.png" class="img-responsive img-rounded" 
+                    style="margin:0px auto;max-height:100%;"/></div> 
+                    <div class="carousel-caption"></div>
+                    </div>  
+                    <!-- Page 3 -->
+                    <div class="item">  
+                    <div class="carousel-page">
+                    <img src="./assets/img/jobs.jpg" class="img-responsive img-rounded" 
+                    style="margin:0px auto;max-height:100%;"/>
+                    </div>  
+                    <div class="carousel-caption"></div>
+                    </div>     
+                    </div>
+                    <!-- Contrôles -->
+                    <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+            </div>
+            <nav class="col-xs-12">
+                <ul class="list-inline">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#nos-videos">Nos videos</a></li>
+                    <li><a href="#nos-photos">Nos photos</a></li>
                         
-                            </ul>
-                        </nav>
+                </ul>
+            </nav>
+            <section id="nos-videos" class="col-xs-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6"><iframe width="70%" height="215" src="https://www.youtube.com/embed/u8tTvhxnXnY" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+                        <div class="col-md-6"><iframe width="70%" height="215" src="https://www.youtube.com/embed/k0DN-BZrM4o" frameborder="0" gesture="media" allowfullscreen></iframe></div>
                     </div>
                 </div>
-            
-           </div>
-
-           <section id="nos-videos">
-
-                <div class="row">
-            
-                    <div class="col-lg-6"><iframe width="854" height="480" src="https://www.youtube.com/embed/u8tTvhxnXnY" frameborder="0" gesture="media" allowfullscreen></iframe></div>
-                    <div class="col-lg-6"><iframe width="854" height="480" src="https://www.youtube.com/embed/k0DN-BZrM4o" frameborder="0" gesture="media" allowfullscreen></iframe></div>
-                </div>
             </section>
-
-                
         </div> <!-- /.row -->
+             
 
-        <section id="nos-photos">
+        <section id="nos-photos" class="col-xs-12">
 
-            <div class="row">
-                <img src="./assets/img/iphonex.jpg" alt="iphonex" class="col-lg-3">
-                <img src="./assets/img/iphone8.jpg" alt="iphone8" class="col-lg-3">
-                <h2>Galerie des produits</h2>
-                <p class="col-lg-6">L’iPhone X, le futur du smartphone, doté d’un superbe nouveau design<br>tout écran révolutionnaire, d’une recharge sans fil et d’une incroyable<br>caméra arrière avec double stabilisation optique de l’image, sera<br>disponible en précommande le vendredi 27 octobre à partir de 9h01 sur le<br>site apple.com et via l’app Apple Store.</p>
-                <img src="./assets/img/watch3.jpg" alt="apple-watch" class="col-lg-3">
-                <img src="./assets/img/ipad-pro.jpg" alt="ipad" class="col-lg-3">
-                <img src="./assets/img/mbp.jpg" alt="macbook-pro" class="col-lg-3">
-                <img src="./assets/img/imac5k.jpg" alt="imac" class="col-lg-3">
-            </div> <!-- /.row -->
-        </section>
+            <div class="container">
+                <div class="row">
+                    <aside class="col-md-6">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img class="img-responsive thumbnail" src="./assets/img/iphonex.jpg" alt="iphonex">
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-responsive thumbnail" src="./assets/img/iphone8.jpg" alt="iphone8">
 
-        <section id="videos-suites">
-                
-             <div class="row">
-                            
-                <div class="col-lg-6"><iframe width="854" height="480" src="https://www.youtube.com/embed/4BkskUE8_hA" frameborder="0" gesture="media" allowfullscreen></iframe></div>
-                <div class="col-lg-6"><iframe width="854" height="480" src="https://www.youtube.com/embed/jUvD80mNKBM" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+                            </div>
+                        </div>
+                    </aside>
+                    <artcicle class="col-md-6">
+                        <h3>Galerie des produits</h3>
+                        <p class="col-lg-6">L’iPhone X, le futur du smartphone, doté d’un superbe nouveau design<br>tout écran révolutionnaire, d’une recharge sans fil et d’une incroyable<br>caméra arrière avec double stabilisation optique de l’image, sera disponible en précommande le vendredi 27 octobre à partir de 9h01 sur le site apple.com et via l’app Apple Store.</p>
+                    </artcicle>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <img class="img-responsive thumbnail" src="./assets/img/watch3.jpg" alt="apple-watch">
+
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <img class="img-responsive thumbnail" src="./assets/img/ipad-pro.jpg" alt="ipad">
+
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <img class="img-responsive thumbnail" src="./assets/img/mbp.jpg" alt="macbook-pro">
+
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <img class="img-responsive thumbnail" src="./assets/img/imac5k.jpg" alt="imac">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    
+                    
+                </div> <!-- /.row -->
             </div>
         </section>
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright © 2017 Apple Inc. Tous droits réservés.</p>
+        <section id="videos-suites" class="col-xs-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"><iframe width="70%" height="215" src="https://www.youtube.com/embed/4BkskUE8_hA" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+                    <div class="col-md-6"><iframe width="70%" height="215" src="https://www.youtube.com/embed/jUvD80mNKBM" frameborder="0" gesture="media" allowfullscreen></iframe></div>
                 </div>
             </div>
+        </section>
+        <footer class="col-xs-12">
+            <p>Copyright © 2017 Apple Inc. Tous droits réservés.</p>
+                
         </footer>
+    
             
 
         
 
-    </div> <!-- /.container-full -->
+    </main> <!-- /.container-full -->
     <!-- JQuery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap JS -->

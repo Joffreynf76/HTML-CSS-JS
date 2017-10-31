@@ -1,0 +1,129 @@
+.container {
+    
+    margin: 0 auto;
+    background: white;
+    margin: 80px auto 80px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #CCC;
+    padding: 5px;
+    overflow: hidden;
+}
+
+body {
+    background: url(../img/fond2.jpg) no-repeat;
+    background-size: cover;
+}
+
+section h1 {
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px dashed #000;
+}
+
+/*.BandeauDuHaut {
+    width: 100%;
+    height: 240px;
+    background: url(../img/bandeau-saint-marc-colored.jpg) no-repeat;
+    background-size: contain;
+}
+*/
+nav ul {
+    margin: 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    margin: 0 80px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+
+}
+
+nav ul li a:hover {
+    color:#78356b;
+    text-decoration: none;
+
+}
+
+.current a {
+    color: #78356b;
+}
+
+article {
+    
+    
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-right: 30px !important;
+}
+
+article span {
+    color:#a51f8b;
+}
+
+footer {
+    background-color: #78356b;
+    padding-top: 10px;
+     
+}
+
+.newsletter fieldset {
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    height: 180px;
+}
+
+.newsletter input {
+    width: 91%;
+    height: 25px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.newsletter input[type=submit] {
+    width: 91%;
+    height: 30px;
+    border: 0;
+    background: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+} 
+
+.contact {
+    
+    margin-left: 10px;
+}
+
+.contact h3 {
+    color: #FFF;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.contact address {
+    color: #FFF;
+    padding-left: 20px;
+    
+}
+.contact address strong {
+    font-size: 20px;
+}
+.contact address a {
+    color: #FFF;
+    text-decoration: none;
+}
+.contact address a:hover {
+    text-decoration: underline;
+}
