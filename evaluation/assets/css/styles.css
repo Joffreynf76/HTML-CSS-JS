@@ -1,0 +1,176 @@
+body {
+    background: url(../img/background.png);
+}
+ /* Header */
+header {
+    width:100%;
+    height: auto;
+    float: right;
+    background-color:#C55394;
+    margin-bottom: 50px;
+}
+
+header .titre {
+    float:left;
+}
+
+header h2 {
+    font-family: 'Courgette', cursive;
+    color: #FFF;
+
+}
+
+header nav {
+    float: right;
+    padding-right: 10px;
+    
+    
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li:hover {
+    background-color: #EB43A3;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    line-height: 80px;
+}
+
+/* Titre et arc en ciel */
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color:#C55394;
+    font-family: 'Courgette', cursive;
+    position: relative;
+    z-index: 3;
+}
+
+body > img {
+    position: absolute;
+    left:35%;
+    top:100px;
+    z-index: 1;
+    
+}
+
+/* Main */
+main {
+    width: 1300px;
+    height: 1180px;
+    margin: 40px auto;
+    background-color: #FFF;
+    position: relative;
+    z-index: 2;
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-left:10px;
+    font-family: 'Courgette', cursive;
+    color:  #EB43A3;
+}
+
+/* Article */
+article {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+article p {
+    margin-left:10px;
+    font-family: Arial, sans-serif;
+    
+
+}
+
+/* Images Licornes */
+
+.img-licorne {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.img-licorne figure {
+    margin: 0 0 0 20px;
+    padding:0;
+    float: left;
+}
+
+.img-licorne figure img {
+    max-width: 100%;
+    height: 290px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height:auto;
+    float: left;
+}
+
+.gmap {
+    float: left;
+    margin-left: 10px;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+}
+
+.contact {
+    margin-left: 750px;
+}
+
+.newsletter {
+    margin-left: 750px;
+}
+
+.newsletter p {
+    font-family: Arial, sans-serif;
+}
+
+.newsletter input[type=submit] {
+    width: 20%;
+    height: 30px;
+    border: 0;
+    background: #EB43A3;
+    font-size: 15px;
+    cursor: pointer;
+} 
+
+/* Bandeau rose */
+
+.bandeRose {
+    width: 100%;
+    height: 50px;
+    background-color: #E577B5;
+}
+
+.bandeRose p {
+    text-align: right;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    line-height: 50px;
+    margin-right: 10px;
+}
