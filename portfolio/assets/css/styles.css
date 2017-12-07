@@ -1,0 +1,139 @@
+
+body {
+    background-color: #ECECEC;
+}
+
+#presentation {
+    margin-bottom:30px;
+}
+
+#presentation p {
+    margin-top:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #ebeef1;
+    border-top: solid 2px ;
+    padding-top: 10px;
+}
+
+footer a {
+    margin-left:40px;
+}
+
+#realisations {
+    border-top: solid 2px ;
+    margin-bottom: 30px;
+
+}
+
+.title {
+    background-image: url("../img/titre.png");
+}
+
+.title h2 {
+    background-color: #ECECEC;
+    width:220px;
+    margin-left:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title2 {
+    background-image: url("../img/titre.png");
+    width:570px;
+}
+
+.title2 h3 {
+    background-color: #ECECEC;
+    width:200px;
+    margin-left:25px;
+    padding-left:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title3 {
+    background-image: url("../img/titre.png");
+    width:570px;
+}
+
+.title3 h3 {
+    background-color: #ECECEC;
+    width:200px;
+    margin-left:25px;
+    padding-left:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title4 {
+    background-image: url("../img/titre.png");
+    width:620px;
+}
+
+.title4 h1 {
+    background-color: #ECECEC;
+    width:350px;
+    margin-left:25px;
+    padding-left:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.credit {
+    background-color: #3E3E3E;
+}
+
+.credit p {
+    color:white;
+    text-align: right;
+    line-height: 40px;
+}
+
+#myCarousel img {
+    width:100%;
+    max-height: 100%;
+}
+
+.title5 {
+    background-image: url("../img/titre.png");
+    width:620px;
+}
+
+.title5 h2 {
+    background-color: #ECECEC;
+    width:320px;
+    margin-left:25px;
+    padding-left:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#competence p {
+    margin-left: 35px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.title6 {
+    background-image: url("../img/titre.png");
+    width:620px;
+}
+
+.title6 h2 {
+    background-color: #ECECEC;
+    width:320px;
+    margin-left:25px;
+    padding-left:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#outils {
+    margin-bottom:90px;
+}
+#outils p {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.code {
+    margin-left:15px;
+}
