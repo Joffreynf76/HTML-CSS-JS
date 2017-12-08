@@ -41,6 +41,7 @@
               <li><a href="index.html">Accueil</a></li>
               
               <li><a href="competences.html">Compétences</a></li>
+              
              
             </ul>
            
@@ -52,11 +53,11 @@
           <section id="presentation">
               <div class="container">
                   <div class="row">
-                      <div class="col-xs-5">
-                          <img src="./assets/img/photo.jpg" alt="photo" class="img-responsive img-rounded">
+                      <div class="col-sm-5">
+                          <img src="./assets/img/photo.jpg" alt="photo" class="img-responsive img-rounded paper">
 
                       </div>
-                      <div class="col-xs-7">
+                      <div class="col-sm-7">
                           <div class="title4">
                           <h1>Développeur Web</h1>
                           </div>
@@ -87,18 +88,18 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                               <div class="item active">
-                                <img src="./assets/img/site1.png" alt="site1">
+                                <a href="./assets/img/site1.png" onclick="window.open(this.href, 'photo', top=0, left=100, toolbar=no, menubar=no, location=no, resizable=yes, scrollbars=yes, status=no)" target="_blank"><img src="./assets/img/site9.png" alt="site1"></a>
                               </div>
                           
                               <div class="item">
-                                <img src="./assets/img/site2.png" alt="site2">
+                                <a href="./assets/img/site2.png" onclick="window.open(this.href, 'photo', top=0, left=100, toolbar=no, menubar=no, location=no, resizable=yes, scrollbars=yes, status=no)" target="_blank"> <img src="./assets/img/site2.png" alt="site2"></a>
                               </div>
                           
                               <div class="item">
-                                <img src="./assets/img/site8.png" alt="site3">
+                                <a href="./assets/img/site3.png" onclick="window.open(this.href, 'photo', top=0, left=100, toolbar=no, menubar=no, location=no, resizable=yes, scrollbars=yes, status=no)" target="_blank"> <img src="./assets/img/site8.png" alt="site3"></a>
                               </div>
                               <div class="item">
-                                <img src="./assets/img/site6.png" alt="site4">
+                                <a href="./assets/img/site5.png" onclick="window.open(this.href, 'photo', top=0, left=100, toolbar=no, menubar=no, location=no, resizable=yes, scrollbars=yes, status=no)" target="_blank"> <img src="./assets/img/site6.png" alt="site4"></a>
                               </div>
                             </div>
                           
@@ -125,7 +126,7 @@
                       <h3>Me Contacter</h3>
                       </div>
                       <div class="col-sm-6">
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" id="contact" action="traitement.php" method="post">
                                     <fieldset>
                                     
                                    
@@ -183,8 +184,8 @@
                           <div class="title3">
                           <h3>Où me trouver ?</h3>
                           </div>
-                          <a href="https://github.com/Joffreynf76"><img src="./assets/img/GitHub-Mark-64px.png" alt="github"></a>
-                          <a href="https://www.linkedin.com/in/joffrey-lhermitte-725b3a153/"><img src="./assets/img/linkdin.png" alt="linkdin"></a>
+                          <a href="https://github.com/Joffreynf76" target="_blank"><img src="./assets/img/GitHub-Mark-64px.png" alt="github"></a>
+                          <a href="https://www.linkedin.com/in/joffrey-lhermitte-725b3a153/" target="_blank"><img src="./assets/img/linkdin.png" alt="linkdin"></a>
                           
                       </div>
                   </div>
@@ -202,6 +203,8 @@
       </main>
     <!-- JQuery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/01.js"></script>
+    
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
